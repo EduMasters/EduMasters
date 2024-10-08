@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Despre Noi - EduMasters Academy</title>
+    <link rel="icon" href="images/mini_logo.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        header {
+            background-color: #000;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+        }
+
+        .logo img {
+            height: 50px;
+        }
+
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+
+        nav a {
+            color: black;
+            text-decoration: none;
+            padding: 10px 15px;
+            background-color: white;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #4682b4;
+        }
+
+        .about-section {
+            text-align: center;
+            margin: 40px 0;
+            padding: 20px;
+        }
+
+        .about-section h1 {
+            margin-bottom: 20px;
+        }
+
+        .about-section p {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 10px;
+            background-color: #f1f1f1;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            line-height: 1.6;
+        }
+
+        .statistics {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .statistic {
+            margin: 10px;
+            padding: 20px;
+            background-color: #e0f7fa;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            flex: 1 1 200px; /* flex-grow, flex-shrink, flex-basis */
+            text-align: center;
+        }
+
+        .enrollment-link {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .enrollment-link a {
+            text-decoration: none;
+            color: #4682b4;
+            font-weight: bold;
+            border: 2px solid #4682b4;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .enrollment-link a:hover {
+            background-color: #4682b4;
+            color: white;
+        }
+
+        footer {
+            background-color: #000;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer .social-icons {
+            margin: 10px 0;
+        }
+
+        footer .social-icons img {
+            width: 30px;
+            margin: 0 10px;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+
+        footer .social-icons img:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <a href="index.html"><img src="images/mini_logo.png" alt="EduMasters Academy Logo"></a>
+    </div>
+    <nav>
+        <a href="https://docs.google.com/forms/d/1NfsAgXkZk0Q-_8Us62JWuD0qhArulWDr6kec-wQpFcA/viewform">Înscrie-te</a>
+        <a href="materii.html">Materii</a>
+        <a href="about.html">About us</a>
+    </nav>
+</header>
+
+<div class="about-section">
+    <h1>Despre EduMasters Academy</h1>
+    <p>EduMasters Academy este o instituție dedicată excelenței în educație, oferind meditații și pregătire pentru examenele de Bacalaureat, Evaluarea Națională și admitere. Cu o echipă de profesori tineri, calificați și pasionați, ne propunem să ajutăm fiecare student să își atingă potențialul maxim prin metode inovative de predare și materiale adaptate nevoilor fiecărui elev.</p>
+    <p>La EduMasters Academy, credem că fiecare student merită atenție individuală și suport constant, astfel încât să își dezvolte nu doar cunoștințele, ci și abilitățile de viață necesare în societatea modernă. Alătură-te nouă și pregătește-te pentru un viitor strălucit!</p>
+
+    <div class="statistics">
+        <div class="statistic">
+            <h3>91%</h3>
+            <p>Dintre elevii noștri și-au atins obiectivele!</p>
+        </div>
+        <div class="statistic">
+            <h3>100%</h3>
+            <p>Rata de promovabilitate la Bacalaureat!</p>
+        </div>
+        <div class="statistic">
+            <h3>97%</h3>
+            <p>Elevi satisfăcuți de cursurile noastre!</p>
+        </div>
+        <div class="statistic">
+            <h3>100+</h3>
+            <p>Cursuri și meditații disponibile!</p>
+        </div>
+    </div>
+    
+</div>
+
+<div class="enrollment-link">
+    <a href="https://docs.google.com/forms/d/1NfsAgXkZk0Q-_8Us62JWuD0qhArulWDr6kec-wQpFcA/viewform">Înscrie-te acum!</a>
+</div>
+<br>
+<footer>
+    <div class="social-icons">
+        <a href="https://www.tiktok.com/@edumasters10" style="color: #000;" target="_blank">
+            <img src="images/tiktoklogo.png" alt="TikTok">
+        </a>
+        <a href="https://www.facebook.com/profile.php?id=61566267011438" style="color: #000;" target="_blank">
+            <img src="images/facebooklogo.png" alt="Facebook">
+        </a>
+        <a href="https://www.youtube.com/@edumasters88" style="color: #000;" target="_blank">
+            <img src="images/youtubelogo.png" alt="Youtube">
+        </a>
+        <a href="https://discord.gg/h7MJvNABJ8" style="color: #000;" target="_blank">
+            <img src="images/discordlogo.png" alt="Discord">
+        </a>
+    </div>
+    <p>Telefon: +40 722 353 082</p>
+    <p>Email: edumasters88@gmail.com</p>
+    <p>&copy; 2024 EduMasters Academy. Toate drepturile rezervate.</p>
+    <br>
+</footer>
+
+</body>
+</html>
